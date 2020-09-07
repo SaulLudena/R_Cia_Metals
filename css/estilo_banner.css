@@ -112,7 +112,7 @@ background: linear-gradient(54deg, rgba(0,0,0,1) 0%, rgba(0,22,40,1) 38%);
 }
 
 .toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
+    transform: rotate(45deg) translate(-5px,-9px);
 }
 
 /*---------------------------------estilos del banner slide---------------------------------*/
@@ -297,8 +297,9 @@ background: linear-gradient(54deg, rgba(0,0,0,1) 0%, rgba(0,22,40,1) 38%);
     .info-izquierda h2{
         color:white;
         font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
         text-align: left;
+        height: 10px;
     }
         
     .info-derecha{
@@ -329,7 +330,6 @@ footer{
     padding-bottom: 0px;
     height: 400px;
     width: 100%;
-
 }
 .footer-contenedor{
     display: flex;
@@ -350,7 +350,9 @@ footer{
     margin-bottom: 5%;
 
 }
-
+.footer-izquierda a{
+    text-decoration: none;
+}
 .footer-izquierda li{
 
     list-style: none;
@@ -403,8 +405,6 @@ footer{
     
 }
 
-
-
 .footer-derecha{
 
     width: calc(100%/ 3);
@@ -426,4 +426,107 @@ footer{
     margin-bottom: 10px;
     width: 50%;
     height: 40px;
+}
+
+@media screen and (max-width: 749px){
+
+    footer{
+        height: 50%;
+        overflow: hidden;
+        width: 100%;
+        
+    }
+    .footer-contenedor{
+        display: block;
+    }
+    .footer-izquierda{
+        
+        padding-left: 9%;
+        width: 100%;
+        height: calc(100%/3);
+    }
+
+    .footer-izquierda h4{
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        margin-top: 10%;
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 6px;
+
+    }
+
+    .footer-izquierda li{
+        font-family: 'Roboto', sans-serif;
+        color:white;
+        width: 80%;
+        height: 80%;
+        margin-left: 10px;
+        
+       
+    }
+    .footer-izquierda p{
+        padding-top: 10px;
+    }
+    .footer-izquierda img{
+        width: 15%;
+        height: 15%;
+        margin-right: 0;
+        border-radius: 100%;
+        
+    }
+
+
+    .footer-centro{
+        
+        height: calc(100%/ 3);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        color:white;
+        text-decoration: none;
+        list-style: none;
+        padding-left: 9%;
+    }
+    
+    .footer-centro h4{
+        margin-top:10%;
+        margin-bottom: 5%;
+        margin-left: 6px;
+        font-size: 25px;
+    }
+    
+    .footer-centro li{
+        text-decoration: none;
+        list-style: none;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+        height: 20%;
+        
+    }
+
+    .footer-derecha{
+        
+        width: 100%;
+        height: calc(100%/3);
+        font-family: 'Roboto', sans-serif;
+        color:white;
+        padding-left: 9%;
+    }
+    
+    .footer-derecha h4{
+        margin-top:10%;
+        margin-bottom: 5%;
+        margin-left: 6px;
+        font-size: 25px;
+    }
+    
+    .footer-derecha li{
+    
+        margin-left: 30px;
+        margin-bottom: 10px;
+        width: 50%;
+        height: 40px;
+    }
 }
