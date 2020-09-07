@@ -328,7 +328,7 @@ footer{
     background: linear-gradient(54deg, rgba(0,0,0,1) 15%, rgba(0,22,40,1) 61%);
     margin-bottom: 0px;
     padding-bottom: 0px;
-    height: 400px;
+    height: 100vh;
     width: 100%;
 }
 .footer-contenedor{
